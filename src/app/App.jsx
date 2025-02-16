@@ -9,7 +9,7 @@ const App = () => {
 
   const message =
     cells.every(cell => cell != "") && !winningMessage
-      ? "game end no one winns "
+      ? "Game ended, no one wins"
       : "Next move: " + go;
 
   const handleReset = () => {
